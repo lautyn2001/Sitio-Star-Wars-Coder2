@@ -1,0 +1,8 @@
+@mixin texto-contenido($color, $text-align, $font-family, $font-size: null) {
+  color: $color;
+  text-align: $text-align;
+  font-family: $font-family;
+  @if $font-size != null {
+    font-size: $font-size; /*mantengo el tamaño por defecto*/
+  }
+} 

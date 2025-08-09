@@ -1,0 +1,95 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MiSitioWeb</title>
+
+  <link rel="stylesheet" href="../style.css" />
+  <!--Font header-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+
+  <!--Font Footer-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <div class="Inicio">
+      <a href="../index.html">Sitio Fan De Star Wars</a>
+    </div>
+
+    <nav class="nav-header">
+      <ul>
+        <li><a href="./peliculas.html">Peliculas</a></li>
+        <li><a href="./personajes.html">Personajes</a></li>
+        <li><a href="./juegos.html">Juegos</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="contacto">Contacto</h1>
+    <p class="consulta">
+      Si tiene alguna pregunta o sugerencia de mejora, comuníquese con
+      nosotros.
+    </p>
+
+    <form action="/submit" method="post">
+      <div class="nombre">
+        <label for="">Nombre: </label>
+        <input type="text" name="nombre" id="nombre" />
+      </div>
+
+      <div class="mail">
+        <label for="">Mail: </label>
+        <input type="text" name="mail" id="mail" />
+      </div>
+
+      <div class="mensaje">
+        <label class="mensa" for="mensaje">Mensaje: </label>
+        <textarea name="mensaje" id="mensaje"></textarea>
+      </div>
+
+      <input class="boton" type="submit" value="ENVIAR" />
+    </form>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="fines">
+        <h2>Sitio web creado con fines educativos de la fuerza</h2>
+      </div>
+
+      <div class="Redes">
+        <nav id="REDES">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/">
+                <img src="../assets/redes-sociales/facebook.png" alt="Facebook" /></a>Facebook
+            </li>
+            <li>
+              <a href="https://www.instagram.com/">
+                <img src="../assets/redes-sociales/instagram.png" alt="Instagram" /></a>Instagram
+            </li>
+            <li>
+              <a href="https://ar.linkedin.com/"><img src="../assets/redes-sociales/linkedln.png"
+                  alt="linkedin" /></a>Linkedln
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="Derechos">
+      <h3>© 2025 Lautaro Negrillo - Todos los Derechos Reservados.</h3>
+    </div>
+  </footer>
+</body>
+
+</html>

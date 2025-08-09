@@ -1,0 +1,48 @@
+@use "../utilities/mixin" as *;
+
+.peliculas {
+  color: yellow;
+  text-align: left;
+  font-family: "Michroma", sans-serif;
+}
+
+.intro-pelis {
+  text-align: center;
+  font-size: 20px;
+  font-family: "BenchNine", sans-serif;
+}
+
+.orden-Pelis {
+  color: yellow;
+  text-align: left;
+  font-family: "Michroma", sans-serif;
+  margin-bottom: 10px;
+}
+
+.episodio {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+
+  &-img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1 / 1;
+    margin-left: 10px;
+  }
+
+  h3 {
+    font-family: "Michroma", sans-serif;
+    font-size: 20px;
+    color: yellow;
+    text-align: left;
+  }
+
+  p {
+    @include texto-contenido(aliceblue, left, monospace, 15px);
+    padding: 20px;
+  }
+}

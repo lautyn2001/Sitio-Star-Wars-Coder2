@@ -1,0 +1,26 @@
+@use "../utilities/variables" as *;
+@use "../utilities/fuentes" as *;
+
+header {
+  width: 100%;
+  background-color: $header-color;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+
+  .inicio {
+    a {
+      text-decoration: none;
+      color: white;
+      font-family: $inicio;
+      font-size: 30px;
+
+      &:hover {
+        color: $st-color;
+      }
+    }
+  }
+}

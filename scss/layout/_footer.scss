@@ -1,0 +1,73 @@
+@use "../utilities/fuentes" as *;
+@use "../utilities/_variables.scss" as *;
+
+footer {
+  background-color: rgb(7, 6, 6);
+  color: white;
+  width: 100%;
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .fines {
+    flex: 1;
+    min-width: 200px;
+
+    h2 {
+      color: $st-color;
+      font-family: initial;
+      font-size: 20px;
+      margin: 0;
+    }
+  }
+
+  .redes {
+    display: flex;
+
+    #redes {
+      ul {
+        list-style: none;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        align-items: center;
+
+        li {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+
+          a {
+            text-decoration: none;
+            color: white;
+            font-family: $inicio;
+            font-size: 10px;
+          }
+
+          img {
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .derechos {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+    color: $st-color;
+
+    h3 {
+      margin: 0;
+      font-weight: normal;
+    }
+  }
+}

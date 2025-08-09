@@ -1,0 +1,296 @@
+@media (max-width: 1024px) {
+
+    /*Tablets*/
+    /*header*/
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-header {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .inicio {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    /*footer*/
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        background-color: #222;
+        color: white;
+        gap: 20px;
+    }
+
+    #redes ul {
+        justify-content: center;
+    }
+
+    #redes li {
+        margin-bottom: 5px;
+    }
+
+    .redes {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .derechos {
+        text-align: center;
+    }
+
+    /*index*/
+    .mustafar {
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .escenarios-iconicos {
+        font-size: 18px;
+    }
+
+    /*peliculas*/
+
+    .episodio {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .episodio-img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .intro-pelis,
+    .orden-pelis {
+        padding: 0 20px;
+        font-size: 16px;
+    }
+
+    .episodio p,
+    .episodio h3 {
+        padding: 0 15px;
+        font-size: 15px;
+    }
+
+    /*personajes*/
+    .card img {
+        height: 350px;
+    }
+
+    .text {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+
+    /*juegos*/
+    .juego p,
+    .juego h3 {
+        padding: 0 15px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    // Celulares
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-header {
+        ul {
+            flex-direction: column;
+            width: 100%;
+            align-items: center; // tomé el último valor que pusiste
+            gap: 10px;
+            margin-top: 10px;
+            text-align: center;
+            justify-content: center;
+        }
+    }
+
+    .inicio {
+        flex-direction: column;
+        width: 100%;
+        align-items: center; // tomé el último valor que pusiste
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #redes {
+        ul {
+            flex-direction: row;
+            align-items: flex-start;
+            align-items: center;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+    }
+
+    .redes {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .derechos {
+        text-align: center;
+    }
+
+    .mustafar {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .escenarios-iconicos {
+        font-size: 18px;
+    }
+
+    /*peliculas*/
+    .intro-pelis {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .orden-pelis {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .episodio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+
+        &-img {
+            width: 100%;
+            height: auto;
+            max-width: 400px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 18px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 14px;
+            padding: 0 10px;
+            text-align: justify;
+        }
+    }
+
+    /*personajes*/
+    .card {
+        img {
+            height: 350px;
+        }
+    }
+
+    .text {
+        font-size: 0.8em;
+        padding: 8px;
+    }
+
+    /*juegos*/
+    .juego {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+
+        &-img {
+            width: 100%;
+            height: auto;
+            max-width: 400px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            padding: 0 15px;
+            font-size: 15px;
+        }
+
+        h3 {
+            padding: 0 15px;
+            font-size: 20px;
+        }
+    }
+
+    /*contacto*/
+    #nombre,
+    #mail,
+    #mensaje {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .boton {
+        width: 100%;
+        font-size: 1em;
+        height: 45px;
+    }
+
+    form {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .contacto {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .consulta {
+        font-size: 0.95em;
+        text-align: center;
+    }
+}

@@ -1,0 +1,38 @@
+@use "../utilities/_variables.scss" as *;
+@use "../utilities/fuentes" as *;
+
+
+.juegos {
+  font-family: $h1;
+  color: $st-color;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.juego {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+
+  &-img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1/1;
+    margin-left: 10px;
+  }
+
+  h3 {
+    font-family: $h3;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  p {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 17px;
+    padding: 20px;
+  }
+}

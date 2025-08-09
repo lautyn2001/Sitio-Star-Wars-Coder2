@@ -1,0 +1,24 @@
+@use "../utilities/variables" as *;
+@use "../utilities/fuentes" as *;
+
+.nav-header {
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+    li {
+      a {
+        text-decoration: none;
+        color: white;
+        font-family: $inicio;
+        font-size: 10px;
+        font-weight: bold;
+
+        &:hover {
+          color: $st-color;
+        }
+      }
+    }
+  }
+}
