@@ -589,26 +589,27 @@ form .boton:hover {
     font-size: 20px;
   }
   /*contacto*/
-  #nombre,
-  #mail,
-  #mensaje {
+  form {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  form #nombre,
+  form #mail,
+  form #mensaje {
     width: 100%;
     font-size: 1em;
   }
-  .boton {
-    width: 100%;
+  form .boton {
+    width: 50%;
     font-size: 1em;
     height: 45px;
   }
-  form {
-    width: 90%;
-    justify-content: center;
-  }
-  .contacto {
+  form .contacto {
     font-size: 1.5em;
     text-align: center;
   }
-  .consulta {
+  form .consulta {
     font-size: 0.95em;
     text-align: center;
   }
