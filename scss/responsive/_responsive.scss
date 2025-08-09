@@ -229,7 +229,15 @@
     }
 
     /*personajes*/
+    .container{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
     .card {
+        align-items: center;
+        justify-content: center;
+        margin-left: 15%;
         img {
             height: 350px;
         }

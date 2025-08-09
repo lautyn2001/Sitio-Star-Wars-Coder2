@@ -560,6 +560,16 @@ form .boton:hover {
     text-align: justify;
   }
   /*personajes*/
+  .container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .card {
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+  }
   .card img {
     height: 350px;
   }
