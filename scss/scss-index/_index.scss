@@ -1,5 +1,6 @@
 @use "../utilities/variables" as *;
 @use "../utilities/fuentes" as *;
+@use "../utilities/carreousel-index" as*;
 
 main {
   background-color: $back-color;
@@ -29,7 +30,7 @@ main {
     font-family: cursive;
   }
 
-  .mustafar {
+  .carrousel {
     width: 100%;
     max-width: 800px;
     height: auto;
