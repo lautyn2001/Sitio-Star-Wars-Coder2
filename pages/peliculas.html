@@ -8,7 +8,7 @@
     content="Star Wars, La Guerra de las Galaxias, Buenas Peliculas, Peliculas, Peliculas Star Wars, Guerras clones, Anakin Skywalker, Jedi, Sith, Darth Vader, Luke Skywalker, Yoda, Han Solo, Imperio Galáctico, La Fuerza, Sables de luz, Mandalorian, Obi-Wan Kenobi, Universo Star Wars, Trilogía Original, Saga Star Wars, Películas de Star Wars, Serie Star Wars, LucasFilm Ltd., George Lucas" />
   <meta name="description"
     content="¿No sabes en qué orden ver Star Wars? Explora la guía definitiva con el orden cronológico y de estreno de todas las películas de la saga." />
-  <link rel="stylesheet" href="../style.css" />
+
   <!--Font header-->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,6 +27,11 @@
   <link
     href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Michroma&family=Savate:ital,wght@0,200..900;1,200..900&display=swap"
     rel="stylesheet" />
+
+  <!--AOS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="../style.css" />
 </head>
 
 <body>
@@ -66,8 +71,9 @@
       <h2 class="orden-pelis">Peliculas por orden cronologico</h2>
 
       <div class="episodio">
-        <img src="../assets/peliculas/episodio1.jpg" class="episodio-img" alt="portada ep.1" />
-        <div>
+        <img src="../assets/peliculas/episodio1.jpg" class="episodio-img" alt="portada ep.1" data-aos="fade-down"
+          data-aos-duration="3000" />
+        <div data-aos="fade-up" data-aos-duration="3000">
           <h3>Episodio I-La Amenaza Fantasma</h3>
           <p>
             La República Galáctica enfrenta una crisis cuando la Federación de
@@ -95,8 +101,9 @@
       </div>
 
       <div class="episodio">
-        <img src="../assets/peliculas/episodio2.jpg" class="episodio-img" alt="portada ep.2" />
-        <div>
+        <img src="../assets/peliculas/episodio2.jpg" class="episodio-img" alt="portada ep.2" data-aos="fade-down"
+          data-aos-duration="3000" />
+        <div data-aos="fade-up" data-aos-duration="3000">
           <h3>Episodio II-El Ataque de los Clones</h3>
           <p>
             Han pasado 10 años desde La Amenaza Fantasma. La República vive una
@@ -127,8 +134,9 @@
       </div>
 
       <div class="episodio">
-        <img src="../assets/peliculas/episodio3.jpg" class="episodio-img" alt="portada ep.3" />
-        <div>
+        <img src="../assets/peliculas/episodio3.jpg" class="episodio-img" alt="portada ep.3" data-aos="fade-down"
+          data-aos-duration="3000" />
+        <div data-aos="fade-up" data-aos-duration="3000">
           <h3>Episodio III-La venganza de los Sith</h3>
           <p>
             La Guerra de los Clones llega a su punto más crítico. Obi-Wan Kenobi
@@ -157,8 +165,9 @@
       </div>
 
       <div class="episodio">
-        <img src="../assets/peliculas/episodio4.jpg" class="episodio-img" alt="portada ep.4" />
-        <div>
+        <img src="../assets/peliculas/episodio4.jpg" class="episodio-img" alt="portada ep.4" data-aos="fade-down"
+          data-aos-duration="3000" />
+        <div data-aos="fade-up" data-aos-duration="3000">
           <h3>Episodio IV - Una nueva esperanza</h3>
           <p>
             La Princesa Leia es capturada por el Imperio Galáctico mientras
@@ -188,8 +197,9 @@
       </div>
 
       <div class="episodio">
-        <img src="../assets/peliculas/episodio5.jpg" class="episodio-img" alt="portada ep.5" />
-        <div>
+        <img src="../assets/peliculas/episodio5.jpg" class="episodio-img" alt="portada ep.5" data-aos="fade-down"
+          data-aos-duration="3000"/>
+        <div data-aos="fade-up" data-aos-duration="3000">
           <h3>Episodio V: El imperio contraataca</h3>
           <p>
             Después de la destrucción de la Estrella de la Muerte, la Alianza
@@ -215,8 +225,9 @@
       </div>
 
       <div class="episodio">
-        <img src="../assets/peliculas/episodio6.jpg" class="episodio-img" alt="portada ep.6" />
-        <div>
+        <img src="../assets/peliculas/episodio6.jpg" class="episodio-img" alt="portada ep.6" data-aos="fade-down"
+          data-aos-duration="3000"/>
+        <div data-aos="fade-up" data-aos-duration="3000">
           <h3>Episodio VI: El Retorno del Jedi</h3>
           <p>
             La película comienza con Luke Skywalker, Leia, Chewbacca y los
@@ -278,6 +289,12 @@
       <h3>© 2025 Lautaro Negrillo - Todos los Derechos Reservados.</h3>
     </div>
   </footer>
+
+  <!--Script AOS-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
