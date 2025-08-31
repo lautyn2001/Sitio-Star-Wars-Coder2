@@ -785,14 +785,17 @@ form .boton:hover {
     text-align: center;
   }
 }
+@media (max-width: 430px) {
+  .card {
+    margin-left: 10%;
+  }
+}
 @media (max-width: 380px) {
   .episodio img {
     margin-left: 0;
   }
   .card {
     margin-left: 5%;
-    align-items: center;
-    justify-content: center;
   }
   .juego img {
     align-items: center;
