@@ -790,7 +790,7 @@ form .boton:hover {
     margin-left: 10%;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 385px) {
   .episodio img {
     margin-left: 0;
   }
