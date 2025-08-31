@@ -117,6 +117,147 @@
     }
 }
 
+@media (max-width: 768px) {
+
+    /*header*/
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-header {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .inicio {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    /*footer*/
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        background-color: #222;
+        color: white;
+        gap: 20px;
+    }
+
+    #redes ul {
+        justify-content: center;
+    }
+
+    #redes li {
+        margin-bottom: 5px;
+    }
+
+    .redes {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .derechos {
+        text-align: center;
+    }
+
+    /*index*/
+    .mustafar {
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .escenarios-iconicos {
+        font-size: 18px;
+    }
+
+    /*peliculas*/
+
+    .episodio {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .episodio-img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .intro-pelis,
+    .orden-pelis {
+        padding: 0 20px;
+        font-size: 16px;
+    }
+
+    .episodio p,
+    .episodio h3 {
+        padding: 0 15px;
+        font-size: 15px;
+    }
+
+    /*personajes*/
+    .card {
+        margin-left: 10%;
+
+        img {
+            height: 350px;
+        }
+    }
+
+    .text {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+
+    /*juegos*/
+    .juego p,
+    .juego h3 {
+        padding: 0 15px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        display: flex;
+        margin-left: 0%;
+
+        img {
+            height: 350px;
+        }
+    }
+
+    .juego {
+  h3{
+    font-size: 20px;
+    font-weight: bold;
+  }
+    }
+
+}
+
 @media (max-width: 480px) {
     // Celulares
 
@@ -229,16 +370,18 @@
     }
 
     /*personajes*/
-    .container{
+    .container {
         align-items: center;
         justify-content: center;
         text-align: center;
     }
+
     .card {
         align-items: center;
         justify-content: center;
         text-align: center;
         margin-left: 15%;
+
         img {
             height: 350px;
         }
