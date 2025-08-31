@@ -371,9 +371,7 @@
 
     /*personajes*/
     .container {
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+        padding: 0;
     }
 
     .card {
@@ -454,19 +452,23 @@
     }
 }
 
-@media (max-width: 430px){
-        .card {
-        margin-left: 10%;
+@media (max-width: 430px) {
+    .card {
+        margin-left: 15%;
 
     }
 }
 
-@media (max-width: 385px) {
+@media (max-width: 391x) {
 
     .episodio {
         img {
             margin-left: 0;
         }
+    }
+
+    .container {
+        padding: 0;
     }
 
     .card {
