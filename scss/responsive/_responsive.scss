@@ -453,3 +453,22 @@
         }
     }
 }
+
+@media (max-width: 360px) {
+.episodio {
+        img {
+margin-left: 0;
+        }
+}
+
+    .card{
+        margin-left: 3%;
+    }
+    .juego {
+        img {
+align-items: center;
+margin-left: 0;
+        }
+        }
+
+}
